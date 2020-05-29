@@ -4,7 +4,7 @@
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 // TypeScript Version: 2.3
 
-import { ErrorRequestHandler, Handler, Request, Response } from 'express';
+import { ErrorRequestHandler, Handler, Request, Response } from 'express-serve-static-core';
 import { Format } from 'logform';
 import * as winston from 'winston';
 import * as Transport from 'winston-transport';
