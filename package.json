@@ -1,10 +1,6 @@
 {
-  "author": {
-    "name": "bithavoc",
-    "email": "im@bithavoc.io",
-    "url": "http://bithavoc.io"
-  },
-  "name": "express-winston",
+  "author": "PH Dev <dev+npm@producthunt.com>",
+  "name": "@producthunt/express-winston",
   "description": "express.js middleware for flatiron/winston",
   "keywords": [
     "winston",
@@ -20,7 +16,7 @@
   "version": "4.0.3",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bithavoc/express-winston.git"
+    "url": "git+https://github.com/bithavoc/express-winston.git"
   },
   "bugs": {
     "url": "http://github.com/bithavoc/express-winston/issues",
@@ -29,7 +25,7 @@
   "main": "index.js",
   "scripts": {
     "pretest": "eslint .",
-    "test": "node_modules/.bin/mocha --reporter spec"
+    "test": "mocha --reporter spec"
   },
   "dependencies": {
     "chalk": "^2.4.1",
@@ -64,32 +60,16 @@
   ],
   "license": "MIT",
   "contributors": [
-    {
-      "name": "Lars Jacob",
-      "url": "http://jaclar.net"
-    },
-    {
-      "name": "Jonathan Lomas",
-      "url": "http://floatinglomas.ca"
-    },
-    {
-      "name": "Xavier Damman",
-      "url": "http://xdamman.com"
-    },
-    {
-      "name": "Quentin Rossetti",
-      "email": "quentin.rossetti@gmail.com"
-    },
-    {
-      "name": "Robbie Trencheny",
-      "email": "me@robbiet.us",
-      "url": "http://robbie.io"
-    },
-    {
-      "name": "Matt Morrissette",
-      "email": "yinzara@gmail.com",
-      "url": "https://github.com/yinzara"
-    }
+    "Lars Jacob (http://jaclar.net)",
+    "Jonathan Lomas (http://floatinglomas.ca)",
+    "Xavier Damman (http://xdamman.com)",
+    "Quentin Rossetti <quentin.rossetti@gmail.com>",
+    "Robbie Trencheny <me@robbiet.us> (http://robbie.io)",
+    "Matt Morrissette <yinzara@gmail.com> (https://github.com/yinzara)"
   ],
-  "types": "index.d.ts"
+  "types": "index.d.ts",
+  "homepage": "https://github.com/bithavoc/express-winston#readme",
+  "directories": {
+    "test": "test"
+  }
 }
